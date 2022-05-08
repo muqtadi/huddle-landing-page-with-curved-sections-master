@@ -1,0 +1,45 @@
+// MOBILE DEVICE
+main{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 80px 80px 40px;
+  grid-row-gap: 40px;
+  justify-items: center;
+  text-align: center;
+  .main-title{
+    color: rgb(0, 37, 46);
+    font-size: 26px;
+    font-family: 'Poppins';
+  }
+  .main-paragraph{
+    font-size: 14px;
+    line-height: 20px;
+    color:rgb(0, 37, 46);
+  }
+  .main-btn{
+    width: 200px;
+    background-color: rgb(253, 83, 192);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 2px 5px 5px rgba(0, 37, 46, 0.2);
+    &:hover{background-color: rgb(255, 142, 214);}
+  }
+}
+
+// TABLET DEVICE
+@media(min-width: 768px){
+  main{
+    grid-template-rows: 40px 80px 45px;
+    grid-row-gap: 20px;
+    .main-paragraph{
+      max-width: 440px;
+    }
+    .main-btn{
+      width: 280px;
+    }
+  }
+}

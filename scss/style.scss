@@ -30,6 +30,7 @@
 }
 
 @import './header';
+@import './main';
 
 *{
   margin: 0;
@@ -44,6 +45,9 @@ body{
   margin: 0 auto;
 }
 .container{
+  display: grid;
+  grid-template-rows: 40px 400px;
+  grid-row-gap: 120px;
   max-width: 980px;
   min-height: 100vh;
   padding: 20px 20px 30px;
