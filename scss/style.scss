@@ -28,6 +28,9 @@
   font-weight: 700;
   font-style: normal;
 }
+
+@import './header';
+
 *{
   margin: 0;
   padding: 0;
@@ -35,4 +38,14 @@
 }
 body{
   font-family: 'Open Sans', 'Poppins', sans-serif;
+}
+.wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container{
+  max-width: 980px;
+  min-height: 100vh;
+  padding: 20px 20px 30px;
+  margin: 0 auto;
 }
