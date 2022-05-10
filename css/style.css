@@ -123,8 +123,8 @@ main .main-img {
 
 @media (min-width: 768px) {
   main {
-    -ms-grid-rows: 40px 80px 45px;
-        grid-template-rows: 40px 80px 45px;
+    -ms-grid-rows: 75px 80px 45px;
+        grid-template-rows: 75px 80px 45px;
     grid-row-gap: 20px;
   }
   main .main-title {
@@ -135,6 +135,44 @@ main .main-img {
   }
   main .main-btn {
     width: 280px;
+  }
+}
+
+.community-statistics {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  grid-row-gap: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 800px;
+}
+
+.community-statistics .static-item-img {
+  width: 22px;
+  height: 20px;
+}
+
+.community-statistics .static-item-h1 {
+  font-size: 60px;
+  color: #00252e;
+}
+
+.community-statistics .static-paragraph {
+  color: #94a3aa;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .community-statistics {
+    -ms-grid-columns: 160px 180px;
+        grid-template-columns: 160px 180px;
+    grid-column-gap: 360px;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
 }
 
@@ -157,8 +195,8 @@ body {
 .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 40px 850px;
-      grid-template-rows: 40px 850px;
+  -ms-grid-rows: 40px minmax(850px) 130px;
+      grid-template-rows: 40px minmax(850px) 130px;
   grid-row-gap: 120px;
   max-width: 980px;
   min-height: 100vh;

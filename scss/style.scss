@@ -31,6 +31,7 @@
 
 @import './header';
 @import './main';
+@import './community-statistics';
 
 *{
   margin: 0;
@@ -46,7 +47,7 @@ body{
 }
 .container{
   display: grid;
-  grid-template-rows: 40px 850px;
+  grid-template-rows: 40px minmax(850px) 130px;
   grid-row-gap: 120px;
   max-width: 980px;
   min-height: 100vh;

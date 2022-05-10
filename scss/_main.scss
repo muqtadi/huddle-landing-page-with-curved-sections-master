@@ -41,7 +41,7 @@ main{
 // TABLET DEVICE
 @media(min-width: 768px){
   main{
-    grid-template-rows: 40px 80px 45px;
+    grid-template-rows: 75px 80px 45px;
     grid-row-gap: 20px;
     .main-title{font-size: 35px;}
     .main-paragraph{

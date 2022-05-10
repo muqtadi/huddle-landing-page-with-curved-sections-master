@@ -1,0 +1,23 @@
+.community-statistics{
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 80px;
+  justify-content: center;
+  max-width: 800px;
+  .static-item-img{width: 22px; height: 20px;}
+  .static-item-h1{font-size: 60px; color: rgb(0, 37, 46);}
+  .static-paragraph{
+    color: rgb(148, 163, 170);
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+// TABLET
+@media(min-width: 768px){
+  .community-statistics{
+    grid-template-columns: 160px 180px;
+    grid-column-gap: 360px;
+    justify-self: center;
+  }
+}
