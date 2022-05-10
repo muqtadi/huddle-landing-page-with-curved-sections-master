@@ -6,10 +6,13 @@ main{
   grid-row-gap: 40px;
   justify-items: center;
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
   .main-title{
     color: rgb(0, 37, 46);
-    font-size: 26px;
+    font-size: 28px;
     font-family: 'Poppins';
+    line-height: 40px;
   }
   .main-paragraph{
     font-size: 14px;
@@ -28,6 +31,11 @@ main{
     box-shadow: 2px 5px 5px rgba(0, 37, 46, 0.2);
     &:hover{background-color: rgb(255, 142, 214);}
   }
+  .main-img{
+    max-width: 100%;
+    margin-top: 60px;
+    max-height: 540px;
+  }
 }
 
 // TABLET DEVICE
@@ -35,6 +43,7 @@ main{
   main{
     grid-template-rows: 40px 80px 45px;
     grid-row-gap: 20px;
+    .main-title{font-size: 35px;}
     .main-paragraph{
       max-width: 440px;
     }
