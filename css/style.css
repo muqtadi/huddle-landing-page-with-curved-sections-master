@@ -309,8 +309,8 @@ main .main-img {
 
 @media (min-width: 768px) {
   .personal-community {
-    -ms-grid-rows: 0px 40px;
-        grid-template-rows: 0px 40px;
+    -ms-grid-rows: 80px 40px;
+        grid-template-rows: 80px 40px;
   }
 }
 
