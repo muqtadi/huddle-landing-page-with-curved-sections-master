@@ -3,7 +3,9 @@ header{
   grid-template-columns: auto auto;
   grid-template-rows: 40px;
   justify-content: space-between;
+  max-width: 100%;
   align-items: center;
+
   .logo-icon{
     width: 120px;
     height: 20px;

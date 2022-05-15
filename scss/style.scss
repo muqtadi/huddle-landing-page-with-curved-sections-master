@@ -32,6 +32,7 @@
 @import './header';
 @import './main';
 @import './community-statistics';
+@import './advantage';
 
 *{
   margin: 0;
@@ -43,14 +44,33 @@ body{
 }
 .wrapper{
   max-width: 1440px;
+  border: 1px solid;
   margin: 0 auto;
 }
 .container{
   display: grid;
-  grid-template-rows: 40px minmax(850px) 130px;
+  grid-template-rows: 40px minmax(850px) 130px auto;
   grid-row-gap: 120px;
   max-width: 980px;
-  min-height: 100vh;
-  padding: 20px 20px 30px;
+  padding: 20px  30px;
   margin: 0 auto;
 }
+.container__item{
+  width: 100%;
+}
+
+// .wrapper {
+//   max-width: 1440px;
+//   border: 1px solid;
+//   margin: 0 auto;
+// }
+
+// .container {
+//   display: grid;
+//   grid-template-rows: 40px minmax(850px) 130px auto;
+//   grid-row-gap: 120px;
+//   max-width: 980px;
+//   min-height: 100vh;
+//   padding: 20px 20px 30px;
+//   margin: 0 auto;
+// }
