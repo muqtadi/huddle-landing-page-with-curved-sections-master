@@ -45,6 +45,8 @@ header {
 header .logo-icon {
   width: 120px;
   height: 20px;
+  cursor: pointer;
+  display: block;
 }
 
 header .header-btn {
