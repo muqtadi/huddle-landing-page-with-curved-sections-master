@@ -217,6 +217,18 @@ main .main-img {
   background-color: white;
 }
 
+.advantage-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.advantage-paragraph {
+  font-size: 16px;
+  line-height: 25px;
+}
+
 @media (min-width: 1024px) {
   .grow-together {
     -ms-grid-columns: auto 600px;
@@ -301,10 +313,19 @@ main .main-img {
 
 .personal-community .community-btn {
   width: 300px;
-  background-color: #ee539b;
-  color: white;
+  background-color: #fd53c0;
+  color: #fff;
   border: none;
   border-radius: 50px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 37, 46, 0.2);
+          box-shadow: 2px 5px 5px rgba(0, 37, 46, 0.2);
+}
+
+.personal-community .community-btn:hover {
+  background-color: #ff8ed6;
 }
 
 @media (min-width: 768px) {
