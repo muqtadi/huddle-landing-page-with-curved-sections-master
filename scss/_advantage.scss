@@ -95,16 +95,16 @@
     font-family: 'Poppins';
    }
    .community-btn{
-     width: 300px;
-    background-color: rgb(253, 83, 192);
-    color: #fff;
-    border: none;
-    border-radius: 50px;
-    font-family: 'Open Sans';
-    font-weight: 700;
-    cursor: pointer;
-    box-shadow: 2px 5px 5px rgba(0, 37, 46, 0.2);
-    &:hover {background-color: rgb(255, 142, 214);}
+      width: 300px;
+      background-color: rgb(253, 83, 192);
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      font-family: 'Open Sans';
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 2px 5px 5px rgba(0, 37, 46, 0.2);
+      &:hover {background-color: rgb(255, 142, 214);}
    }
  }
  @media(min-width: 768px){
